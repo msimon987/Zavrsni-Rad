@@ -15,11 +15,18 @@ function randomName() {
 function randomColor() {
  return '#' + Math.floor(Math.random() * 0xFFFFFA).toString(16);
 }
+
+function getDate() {
+  const today = new Date();
+  const date = " (" + today.getDate() + "/" + (today.getMonth()+1) + "/" + today.getFullYear() + ' ' + today.getHours() + ":" + today.getMinutes() + ")";
+  return date
+}
+
 class Chat extends React.Component {
 
   constructor(props) {
     super(props);
-    this.drone = new window.Scaledrone("PnFavtIMvMsf69yV", {
+    this.drone = new window.Scaledrone("Jix6dCZZ3mP2TLjW", {
       data: this.state.member
     });
     this.drone.on('open', error => {
@@ -35,7 +42,7 @@ class Chat extends React.Component {
  // ---
     room.on('data', (data, member) => {
       const messages = this.state.messages;
-      messages.push({member, text: data});
+      messages.push({member, text: data, time:getDate()});
       this.setState({messages});
     });
   }
@@ -63,6 +70,7 @@ class Chat extends React.Component {
       <Messages
         messages={this.state.messages}
         currentMember={this.state.member}
+        time={this.state.time}
       />
       <Input onSendMessage={this.onSendMessage}/>
     </div>
