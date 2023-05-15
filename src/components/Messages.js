@@ -12,13 +12,13 @@ class Messages extends Component {
   }
 
   renderMessage(message) {
-    const {member, text} = message;
+    const {member, text, time} = message;
     const {currentMember} = this.props;
     const messageFromMe = member.id === currentMember.id;
     const className = messageFromMe ?
       "Messages-message currentMember" : "Messages-message";
     return (
-      <li className={className}>
+      <li key={text + "_" + new Date().getTime().toString()} className={className}>
       <span
         className="avatar"
         style={{backgroundColor: member.clientData.color}}
@@ -29,6 +29,7 @@ class Messages extends Component {
           </div>
           <div className="text">{text}</div>
         </div>
+        <div className="time">{time}</div>
       </li>
     );
   }
