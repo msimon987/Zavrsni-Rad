@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Zavrsni-Rad/static/css/main.f6f84d2a.css",
-    "main.js": "/Zavrsni-Rad/static/js/main.cb36fc0c.js",
+    "main.js": "/Zavrsni-Rad/static/js/main.423fe512.js",
     "index.html": "/Zavrsni-Rad/index.html",
     "main.f6f84d2a.css.map": "/Zavrsni-Rad/static/css/main.f6f84d2a.css.map",
-    "main.cb36fc0c.js.map": "/Zavrsni-Rad/static/js/main.cb36fc0c.js.map"
+    "main.423fe512.js.map": "/Zavrsni-Rad/static/js/main.423fe512.js.map"
   },
   "entrypoints": [
     "static/css/main.f6f84d2a.css",
-    "static/js/main.cb36fc0c.js"
+    "static/js/main.423fe512.js"
   ]
 }
