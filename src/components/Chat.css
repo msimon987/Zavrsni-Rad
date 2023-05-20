@@ -23,6 +23,9 @@
     padding-left: 0;
     flex-grow: 1;
     overflow: auto;
+    background-color: lightgray;
+    background: rgba(300,300,300,0.3);
+    height: 40%;
   }
   
   .Messages-message {

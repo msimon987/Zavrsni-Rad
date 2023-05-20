@@ -1,3 +1,4 @@
+
 .login-form {
     display: flex;
     flex-direction: column;
@@ -6,11 +7,17 @@
     margin-top: 2rem;
     justify-content: center;
     align-items: center;
+    margin-top: 450px;
+    background: rgba(300,300,300,0.3);
+    width: 50%;
+    color: black;
   }
   .login-form > * {
     margin-top: 2rem;
+    border-color: green;
   }
   .login-btn {
     margin-bottom: 2rem;
     width: 6rem;
+    background-color: green;
   }

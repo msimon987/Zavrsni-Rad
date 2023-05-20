@@ -13,7 +13,7 @@ const Header = (props) =>{
 
       {!isLoggedIn &&  <div className="App-header">
         <div></div>
-        <h1>Chat Application</h1>
+        <h1>Super Cool Chat</h1>
         {/* Prazan div služi za flex pozicioniranje elemenata */}
         <div></div>
       </div>}
