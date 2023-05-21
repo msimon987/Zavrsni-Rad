@@ -9,7 +9,7 @@ function randomColor() {
 
 function getDate() {
   const today = new Date();
-  const date = " (" + today.getDate() + "/" + (today.getMonth()+1) + "/" + today.getFullYear() + ' ' + today.getHours() + ":" + today.getMinutes() + ")";
+  const date = " (" + today.getDate() + "/" + (today.getMonth()+1) + "/" + today.getFullYear() + ' ' + today.getHours() + ":" + today.getMinutes() + ")" + ' ';
   return date
 }
 

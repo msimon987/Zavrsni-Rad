@@ -1,5 +1,6 @@
 import {Component} from "react";
 import React from "react";
+import "./Input.css";
 
 class Input extends Component {
 
