@@ -5,8 +5,8 @@
   left: 0;
   right: 0;
   height: 100%;
-  overflow-y: scroll;
-    background-image:url("./components/Images/appBackgrounImage.jpg")
+  overflow-y: auto;
+  background-image:url("./components/Images/appBackgrounImage.jpg")
   }
   @media screen and (max-width: 650px) {
     .column {
