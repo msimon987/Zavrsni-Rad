@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/Zavrsni-Rad/static/css/main.f6f84d2a.css",
-    "main.js": "/Zavrsni-Rad/static/js/main.423fe512.js",
+    "main.css": "/Zavrsni-Rad/static/css/main.e728b48a.css",
+    "main.js": "/Zavrsni-Rad/static/js/main.36304402.js",
+    "static/media/appBackgrounImage.jpg": "/Zavrsni-Rad/static/media/appBackgrounImage.f5fd6c4ec3f1c32a4b43.jpg",
+    "static/media/team3.jpg": "/Zavrsni-Rad/static/media/team3.722c83de4121d9fcfede.jpg",
+    "static/media/team1.jpg": "/Zavrsni-Rad/static/media/team1.a1d2f3730ad3b807a1cd.jpg",
     "index.html": "/Zavrsni-Rad/index.html",
-    "main.f6f84d2a.css.map": "/Zavrsni-Rad/static/css/main.f6f84d2a.css.map",
-    "main.423fe512.js.map": "/Zavrsni-Rad/static/js/main.423fe512.js.map"
+    "main.e728b48a.css.map": "/Zavrsni-Rad/static/css/main.e728b48a.css.map",
+    "main.36304402.js.map": "/Zavrsni-Rad/static/js/main.36304402.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6f84d2a.css",
-    "static/js/main.423fe512.js"
+    "static/css/main.e728b48a.css",
+    "static/js/main.36304402.js"
   ]
 }
